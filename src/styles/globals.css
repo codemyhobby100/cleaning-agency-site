@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .my_container {
+    @apply max-w-[1170px] md:mx-[20px] mx-[10px] xl:mx-auto 2xl:mx-auto px-[5px];
+  }
+  .text{
+    @apply  text-[16px] md:text-[18px] leading-[30px] text-[#464646]
+  }
+  .heading_2{
+    @apply 2xl:text-[64px] xl:text-[58px] text-[38px] font-secondary font-bold 2xl:leading-[76px] xl:leading-[68px] leading-[58px]
+  }
+  .heading_3{
+    @apply md:text-[44px] text-[30px] font-secondary font-bold leading-[42px] md:leading-[52px]
+  }
+  .paragraph{
+    @apply text-[#464646]
+  }
+  .main_heading{
+    @apply font-extrabold font-secondary text-[50px] md:text-[60px] xl:text-[70px] 2xl:text-[80px] leading-[60px] md:leading-[80px] xl:leading-[90px] 2xl:leading-[100px] text-center
+  }
+  .nav_link{
+    @apply text-[#929292] text-[16px] leading-[24px] hover:text-[#1F1F1F] hover:font-bold
+  }
+  .contact_heading{
+    @apply font-semibold text-[24px] leading-[50px] text-[#1F1F1F]
+  }
+}
