@@ -28,6 +28,7 @@ import CountUp from "react-countup";
 import Image from "next/image";
 import Link from "next/link";
 import Layout from "@/components/Layout/Layout";
+import CustomHead from "@/components/CustomHead/CustomHead";
 
 const services = [
   {
@@ -36,7 +37,7 @@ const services = [
       "We prioritize environmentally friendly cleaning methods to protect your space and the planet.",
     backgroundColor: "#EFF2FC",
     alt: "Clean My Space Ltd Eco-Friendly Initiatives text logo – We prioritize environmentally friendly cleaning methods to protect your space and the planet.",
-    imgSrc: homeService1,
+    imgSrc: homeService1
   },
   {
     title: "Commercial Cleaning",
@@ -44,7 +45,7 @@ const services = [
       "We offer specialized cleaning services for businesses, ensuring a clean and productive environment.",
     backgroundColor: "#FFE9CA",
     alt: "Clean My Space Ltd Commercial Cleaning text logo – We offer specialized cleaning services for businesses, ensuring a clean and productive environment.",
-    imgSrc: homeService2,
+    imgSrc: homeService2
   },
   {
     title: "Specialized Cleaning",
@@ -52,7 +53,7 @@ const services = [
       "We handle unique cleaning challenges with specialized techniques and equipment.",
     backgroundColor: "#FFE5F9",
     alt: "Clean My Space Ltd Specialized Cleaning text logo – We handle unique cleaning challenges with specialized techniques and equipment.",
-    imgSrc: homeService3,
+    imgSrc: homeService3
   },
   {
     title: "Additional Services",
@@ -60,8 +61,8 @@ const services = [
       "We offer various supplementary services to meet all your cleaning needs.",
     backgroundColor: "#E1EEE8",
     alt: "Expert workers are highly skilled professional with extensive in their respective fields.",
-    imgSrc: homeService4,
-  },
+    imgSrc: homeService4
+  }
 ];
 
 const items1 = [
@@ -70,7 +71,7 @@ const items1 = [
   "Detailed cleaning of floors, including vacuuming and mopping",
   "Wiping down walls, fixtures, and fittings",
   "Disinfection of high-touch areas",
-  "Removal of paint splatters and other construction residues",
+  "Removal of paint splatters and other construction residues"
 ];
 
 const items2 = [
@@ -78,30 +79,30 @@ const items2 = [
   " Addressing build-up in hard-to-reach places, including behind appliances and under furniture",
   "Sanitizing and deodorizing carpets, upholstery, and other fabrics",
   "Cleaning and polishing high-touch surfaces, such as doorknobsand light switches",
-  "Scrubbing and disinfecting bathrooms and kitchens to remove grime and bacteria",
+  "Scrubbing and disinfecting bathrooms and kitchens to remove grime and bacteria"
 ];
 
 const stats = [
   {
     bgColor: "#DBECFF",
     count: 120, // Use a number instead of a string
-    description: "Happy Clients",
+    description: "Happy Clients"
   },
   {
     bgColor: "#FFE9CA",
     count: 150,
-    description: "Project Complete",
+    description: "Project Complete"
   },
   {
     bgColor: "#E1EEE8",
     count: 20,
-    description: "Team Members",
+    description: "Team Members"
   },
   {
     bgColor: "#FFE5F9",
     count: 2,
-    description: "Year Experience",
-  },
+    description: "Year Experience"
+  }
   // Add more items here if needed
 ];
 
@@ -113,13 +114,19 @@ function Home() {
     if (targetElement) {
       window.scrollTo({
         top: targetElement.offsetTop,
-        behavior: "smooth",
+        behavior: "smooth"
       });
     }
   };
 
   return (
     <Layout>
+      <CustomHead
+        title={"Professional Cleaning Services in Abuja | Clean My Space Ltd"}
+        description={
+          "Top cleaning company in Abuja offering a wide range of cleaning services. Contact Clean My Space Ltd for expert cleaning solutions tailored to your needs."
+        }
+      ></CustomHead>
       <HomeBanner />
 
       {/* Plan & Explore section */}
@@ -140,7 +147,11 @@ function Home() {
               </div>
               <p className="text-[14px] font-medium pr-[20px]">Watch</p>
             </div>
-            <Image src={worker1} alt="Obinna Odukwu, Manager at Clean My Space Ltd, standing in the office." className="self-end" />
+            <Image
+              src={worker1}
+              alt="Obinna Odukwu, Manager at Clean My Space Ltd, standing in the office."
+              className="self-end"
+            />
           </div>
 
           <div className="bg-[#FFE9CA] border border-[#939393] px-[20px] h-max pt-[20px] flex flex-row md:max-w-[255px] rounded-[25px]">
@@ -183,17 +194,23 @@ function Home() {
                 </div>
               </a>
               <div className="mt-20 md:mt-10">
-                <p className="text-[22px] md:text-[10px] pt-4 font-bold">Choose Your Service</p>
-                <p className="text-[22px] md:text-[10px] pt-3 font-bold">Confirm Your Booking</p>
-                <p className="text-[22px] md:text-[10px] pt-3 font-bold">Enjoy a Spotless Space</p>
+                <p className="text-[22px] md:text-[10px] pt-4 font-bold">
+                  Choose Your Service
+                </p>
+                <p className="text-[22px] md:text-[10px] pt-3 font-bold">
+                  Confirm Your Booking
+                </p>
+                <p className="text-[22px] md:text-[10px] pt-3 font-bold">
+                  Enjoy a Spotless Space
+                </p>
               </div>
             </div>
-              
-              <Image
-                src={worker3}
-                alt="Clean My Space Ltd worker folding hands, illustrating the 'Book in 3 Easy Steps' process."
-                className="self-end w-[55%] md:w-full ml-[-30px]"
-              />            
+
+            <Image
+              src={worker3}
+              alt="Clean My Space Ltd worker folding hands, illustrating the 'Book in 3 Easy Steps' process."
+              className="self-end w-[55%] md:w-full ml-[-30px]"
+            />
           </div>
 
           <div className="bg-[#FFE9CA] border border-[#939393] px-[20px] h-max pt-[20px] flex flex-row md:max-w-[200px] rounded-[25px]">
@@ -237,10 +254,11 @@ function Home() {
             We Provide the Best Cleaning Services in Abuja
           </h2>
           <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
-            As one of the top cleaning companies in Abuja, Clean My Space Ltd. is 
-            committed to exceeding your expectations. Whether you need professional 
-            cleaning services, innovative solutions, or reliable support, we deliver 
-            excellence that sets us apart from other cleaning services in Abuja.
+            As one of the top cleaning companies in Abuja, Clean My Space Ltd.
+            is committed to exceeding your expectations. Whether you need
+            professional cleaning services, innovative solutions, or reliable
+            support, we deliver excellence that sets us apart from other
+            cleaning services in Abuja.
           </p>
         </div>
 
@@ -260,7 +278,9 @@ function Home() {
             </div>
             <div>
               <p className="text text-[16px]">
-                Our team consists of seasoned professionals, each with deep expertise in their field. We handle every task with precision and care, ensuring superior results.
+                Our team consists of seasoned professionals, each with deep
+                expertise in their field. We handle every task with precision
+                and care, ensuring superior results.
               </p>
             </div>
           </div>
@@ -280,7 +300,9 @@ function Home() {
             </div>
             <div>
               <p className="text text-[16px]">
-                We provide cutting-edge cleaning and services tailored to your specific needs. By leveraging the latest technology and best practices, we guarantee exceptional results every time.
+                We provide cutting-edge cleaning and services tailored to your
+                specific needs. By leveraging the latest technology and best
+                practices, we guarantee exceptional results every time.
               </p>
             </div>
           </div>
@@ -300,7 +322,9 @@ function Home() {
             </div>
             <div>
               <p className="text text-[16px]">
-                We’re available whenever you need us, offering round-the-clock cleaning services in Abuja to ensure your space is always pristine, no matter the hour.
+                We’re available whenever you need us, offering round-the-clock
+                cleaning services in Abuja to ensure your space is always
+                pristine, no matter the hour.
               </p>
             </div>
           </div>
@@ -320,7 +344,9 @@ function Home() {
             </div>
             <div>
               <p className="text text-[16px]">
-                Your satisfaction is our mission. We strive to deliver unparalleled service that not only meets but consistently exceeds your expectations.
+                Your satisfaction is our mission. We strive to deliver
+                unparalleled service that not only meets but consistently
+                exceeds your expectations.
               </p>
             </div>
           </div>
@@ -341,11 +367,12 @@ function Home() {
             Explore Our Current Cleaning and Services
           </h2>
           <p className="text text-center pb-[50px]">
-            At Clean My Space Ltd., we provide a comprehensive range of cleaning services 
-            in Abuja, designed to meet the needs of both residential and commercial clients. 
-            Our commitment to quality and eco-friendly practices ensures that every space we 
-            clean is left in pristine condition. Here’s a list of our current services and 
-            some exciting offerings we’re planning to add soon:
+            At Clean My Space Ltd., we provide a comprehensive range of cleaning
+            services in Abuja, designed to meet the needs of both residential
+            and commercial clients. Our commitment to quality and eco-friendly
+            practices ensures that every space we clean is left in pristine
+            condition. Here’s a list of our current services and some exciting
+            offerings we’re planning to add soon:
           </p>
         </div>
 
@@ -392,10 +419,10 @@ function Home() {
           Explore Our Top Cleaning Services in Abuja
         </h2>
         <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
-          Discover the best cleaning services Abuja has to offer, designed to meet 
-          your needs and exceed your expectations. Whether you’re looking for professional 
-          expertise, innovative solutions, or dependable support, we’re here to deliver 
-          exceptional results every time.
+          Discover the best cleaning services Abuja has to offer, designed to
+          meet your needs and exceed your expectations. Whether you’re looking
+          for professional expertise, innovative solutions, or dependable
+          support, we’re here to deliver exceptional results every time.
         </p>
 
         {/* Top Service 1 */}
@@ -529,9 +556,9 @@ function Home() {
           How We Ensure Your Space Stays Spotless
         </h2>
         <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
-          We are dedicated to surpassing your expectations at every step. 
-          Whether you’re looking for expert cleaning services, innovative 
-          solutions, or dependable support in Abuja, we prioritize your needs 
+          We are dedicated to surpassing your expectations at every step.
+          Whether you’re looking for expert cleaning services, innovative
+          solutions, or dependable support in Abuja, we prioritize your needs
           and deliver exceptional results to keep your space pristine.
         </p>
 
@@ -547,7 +574,8 @@ function Home() {
                 Book Online
               </h3>
               <p className="text-[14px] leading-[22px] text-[#4F4F4F] pb-[20px]">
-                Choose your cleaning service and book easily through our website.
+                Choose your cleaning service and book easily through our
+                website.
               </p>
             </div>
 
@@ -569,7 +597,8 @@ function Home() {
                 Enjoy Services
               </h3>
               <p className="text-[14px] leading-[22px] text-[#4F4F4F] pb-[20px]">
-                Sit back and relax while our expert workers take care of your space.
+                Sit back and relax while our expert workers take care of your
+                space.
               </p>
             </div>
           </div>
@@ -591,14 +620,18 @@ function Home() {
         <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
           Our client testimonials underscore the convenience, reliability, and
           top-notch quality of our cleaning services in Abuja. We take pride in
-          exceeding our customers' expectations at every step, delivering
+          exceeding our customers&apos; expectations at every step, delivering
           exceptional service that makes us one of the most trusted cleaning
           companies in Abuja.
         </p>
 
         <div className="flex z-0">
           <div className="z-10 hidden lg:inline">
-            <Image src={client} className="lg:ml-[200px]  " alt="Clean My Space Ltd worker smiling next to a testimonial – showcasing positive feedback from a satisfied customer." />
+            <Image
+              src={client}
+              className="lg:ml-[200px]  "
+              alt="Clean My Space Ltd worker smiling next to a testimonial – showcasing positive feedback from a satisfied customer."
+            />
           </div>
           <div className="lg:max-w-[772px] z-0 border border-[#939393] rounded-[30px] p-[30px] md:p-[60px]">
             <Image src={quote} className="rotate-180" alt="Quote" />

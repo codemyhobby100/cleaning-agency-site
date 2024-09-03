@@ -10,6 +10,7 @@ import FAQ from "../components/FAQ/FAQ";
 import CurrentServices from "../components/CurrentServices/CurrentServices";
 import Layout from "@/components/Layout/Layout";
 import Image from "next/image";
+import CustomHead from "@/components/CustomHead/CustomHead";
 
 function Services() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,12 @@ function Services() {
   return (
     <Layout>
       {/* Banner */}
-
+      <CustomHead
+        title={"Our Cleaning Services | Cleaning Services in Abuja"}
+        description={
+          "Explore our range of cleaning services, including janitorial and laundry services in Abuja. Clean My Space Ltd provides professional cleaning solutions for homes and offices"
+        }
+      ></CustomHead>
       <Banner
         heading="Our Cleaning Services in Abuja"
         title="Welcome to Clean My Space Ltd."

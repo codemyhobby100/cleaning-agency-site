@@ -4,12 +4,25 @@ import cleaner3 from "../assets/cleaner3.png";
 import { RiMapPinLine } from "react-icons/ri";
 import Button from "../components/Button/Button";
 import Layout from "@/components/Layout/Layout";
+import CustomHead from "@/components/CustomHead/CustomHead";
 
 function Projects() {
   return (
     <Layout>
+      <CustomHead
+        title={
+          "Our Cleaning Projects | recent projects #1 cleaning company in Abuja today!"
+        }
+        description={
+          "Top-notch cleaning projects in Abuja with Clean My Space Ltd. We offer expert office and commercial cleaning tailored to your needs. Contact the #1 cleaning company in Abuja today!"
+        }
+      ></CustomHead>
       {/* banner section */}
-      <Banner heading=" Our Cleaning Projects" title="Welcome to Clean My Space Ltd." rightImage={cleaner3} />
+      <Banner
+        heading=" Our Cleaning Projects"
+        title="Welcome to Clean My Space Ltd."
+        rightImage={cleaner3}
+      />
 
       {/* Recent Projects section */}
 

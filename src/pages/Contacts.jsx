@@ -11,6 +11,7 @@ import emailjs from "@emailjs/browser"; // Import emailjs correctly
 import Swal from "sweetalert2";
 import cleaner4 from "../assets/Contact-Clean-My-Space-Ltd-Abuja.png";
 import Layout from "@/components/Layout/Layout";
+import CustomHead from "@/components/CustomHead/CustomHead";
 
 function Contacts() {
   const [inputValue, setInputValue] = useState("");
@@ -32,7 +33,7 @@ function Contacts() {
             icon: "success",
             title: "Great!",
             text: "Your message has been sent successfully",
-            footer: '<a href="#">Go home</a>',
+            footer: '<a href="#">Go home</a>'
           });
         },
         (error) => {
@@ -44,8 +45,21 @@ function Contacts() {
 
   return (
     <Layout>
+      <CustomHead
+        title={
+          "Contact Clean My Space Ltd | Leading Cleaning Services in Abuja"
+        }
+        description={
+          "Get in touch with Clean My Space Ltd for top-notch cleaning services in Abuja. Fill out the contact form or call us at (+234)09119178436"
+        }
+      ></CustomHead>
       {/* Banner section */}
-      <Banner heading="Contact Clean My Space Ltd" title="Welcome to Clean My Space Ltd" rightImage={cleaner4} alt="Contact Clean My Space Ltd for top cleaning services in Abuja. Our team is ready to assist you with residential and commercial cleaning." />
+      <Banner
+        heading="Contact Clean My Space Ltd"
+        title="Welcome to Clean My Space Ltd"
+        rightImage={cleaner4}
+        alt="Contact Clean My Space Ltd for top cleaning services in Abuja. Our team is ready to assist you with residential and commercial cleaning."
+      />
 
       <div className="my_container py-[80px] lg:py-[160px] flex items-center flex-col lg:flex-row gap-[50px]">
         {/* Form Section */}

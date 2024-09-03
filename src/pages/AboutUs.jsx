@@ -11,39 +11,45 @@ import Banner from "../components/Banner/Banner";
 import Layout from "@/components/Layout/Layout";
 import Image from "next/image";
 import Link from "next/link";
+import CustomHead from "@/components/CustomHead/CustomHead";
 
 const services = [
   {
     title: "Flexible Scheduling",
     description:
       "We understand the importance of convenience, offering flexible scheduling to meet your unique needs.",
-    imageSrc: checkBox,
+    imageSrc: checkBox
   },
   {
     title: "Experienced Team",
     description:
       "Our team of experts brings a wealth of experience and professionalism to every job, making us a top choice among cleaning firms in Abuja.",
-    imageSrc: checkBox,
+    imageSrc: checkBox
   },
   {
     title: "Eco-Friendly Cleaning",
     description:
       "We prioritize the use of environmentally safe products and methods, ensuring that our services are both effective and sustainable.",
-    imageSrc: checkBox,
+    imageSrc: checkBox
   },
   {
     title: "Commitment to Excellence",
     description:
       "We are committed to providing the best services, and consistently delivering results that exceed expectations.",
-    imageSrc: checkBox,
-  },
+    imageSrc: checkBox
+  }
 ];
 
 function AboutUs() {
   return (
     <Layout>
       {/* Banner */}
-
+      <CustomHead
+        title={"About Clean My Space Ltd | Leading Cleaning Company in Abuja"}
+        description={
+          "Learn more about Clean My Space Ltd, a trusted cleaning firm in Abuja committed to delivering top-notch cleaning services to residential and commercial clients"
+        }
+      ></CustomHead>
       <Banner
         title="Welcome to Clean My Space Ltd."
         heading="About Clean My Space Ltd."
