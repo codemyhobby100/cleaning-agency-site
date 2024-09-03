@@ -19,10 +19,9 @@ function AboutUs() {
 
       <Banner heading="About Us" rightImage={cleaner1} />
 
-      
       {/* welcome section */}
       <div className="my_container flex flex-col lg:flex-row pt-[90px] pb-[50px] md:pb-[160px] gap-[20px]">
-        <div className=" lg:max-w-[377px]">
+        <div className=" lg:max-w-[377px] flex flex-col justify-between">
           <h2 className="font-secondary font-bold text-[36px] lg:text-[44px] leading-[50px] lg:leading-[70px] text-center lg:text-left">
             Welcome to Clean My Space Ltd.
           </h2>
@@ -39,39 +38,39 @@ function AboutUs() {
             Our journey began with a simple but powerful desire: to promote
             eco-friendly living through exceptional cleaning services.
           </p>
-        </div>
-      </div>
 
       {/* mission vision section */}
-
-      <div className="my_container pb-[40px] md:pb-[50px] lg:pb-[100px] pt-[40px] md:pt-[50px] lg:pt-[100px] flex flex-col lg:flex-row gap-[20px]">
-        <div className="lg:w-1/2 border border-[#939393] rounded-[40px]">
-          <h2 className="text-[32px] leading-[50px] font-bold text-center pt-[30px] font-secondary">
-            Mission
-          </h2>
-          <p className="text text-center p-[10px] md:p-[32px]">
-            “ At Clean My Space Ltd, our mission is to provide exceptional
-            cleaning services that enhance the comfort and well-being of our
-            clients. We are dedicated to delivering meticulous, reliable, and
-            eco-friendly cleaning solutions while fostering a culture of
-            integrity, respect, and professionalism. Our goal is to create
-            pristine environments that contribute to healthier and happier
-            living and working spaces. ”
-          </p>
-        </div>
-        <div className="lg:w-1/2 border border-[#939393] rounded-[40px]">
-          <h2 className="text-[32px] leading-[50px] font-bold text-center pt-[30px] font-secondary">
-            Vision
-          </h2>
-          <p className="text text-center p-[10px] md:p-[32px]">
-            “ Our vision at Clean My Space Ltd is to be the leading provider of
-            innovative and sustainable cleaning services, renowned for our
-            commitment to excellence and customer satisfaction. We aspire to set
-            new standards in the cleaning industry by leveraging cutting-edge
-            technology, eco-friendly practices, and a passionate team, ensuring
-            that every space we touch is not only clean but also contributes to
-            a better, more sustainable world. ”
-          </p>
+          <div className="pt-[50px] flex flex-col lg:flex-row gap-[20px]">
+            <div className="lg:w-1/2 border border-[#939393] rounded-[40px]">
+              <h2 className="text-[32px] leading-[50px] font-bold text-center pt-[30px] font-secondary">
+                Mission
+              </h2>
+              <p className="text text-[16px] text-center p-[10px] md:p-[32px]">
+                “ At Clean My Space Ltd, our mission is to provide exceptional
+                cleaning services that enhance the comfort and well-being of our
+                clients. We are dedicated to delivering meticulous, reliable,
+                and eco-friendly cleaning solutions while fostering a culture of
+                integrity, respect, and professionalism. Our goal is to create
+                pristine environments that contribute to healthier and happier
+                living and working spaces. ”
+              </p>
+            </div>
+            <div className="lg:w-1/2 border border-[#939393] rounded-[40px]">
+              <h2 className="text-[32px] leading-[50px] font-bold text-center pt-[30px] font-secondary">
+                Vision
+              </h2>
+              <p className="text text-[16px] text-center p-[10px] md:p-[32px]">
+                “ Our vision at Clean My Space Ltd is to be the leading provider
+                of innovative and sustainable cleaning services, renowned for
+                our commitment to excellence and customer satisfaction. We
+                aspire to set new standards in the cleaning industry by
+                leveraging cutting-edge technology, eco-friendly practices, and
+                a passionate team, ensuring that every space we touch is not
+                only clean but also contributes to a better, more
+                sustainable world. ”
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 

@@ -9,7 +9,7 @@ function Banner({ heading, rightImage }) {
     >
       <div className="my_container flex items-center text-center md:text-start justify-center md:justify-between w-full">
         <div>
-          <p className="text-[24px] font-semibold text-[#0073AC]">{heading}</p>
+          <p className="lg:text-[24px] text-[20px] font-semibold text-[#0073AC]">{heading}</p>
           <h1 className="heading_2">
             Welcome to Clean <br />
             My Space Ltd.

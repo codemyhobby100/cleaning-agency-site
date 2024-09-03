@@ -85,7 +85,7 @@ function Header() {
           {[
             { to: "/Home", label: "Home" },
             { to: "/AboutUs", label: "About Us" },
-            { to: "/Cervices", label: "Services" },
+            { to: "/Services", label: "Services" },
             { to: "/Projects", label: "Projects" },
             { to: "/Contacts", label: "Contacts" },
           ].map((link) => (
