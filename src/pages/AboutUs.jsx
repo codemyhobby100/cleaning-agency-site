@@ -19,9 +19,32 @@ function AboutUs() {
 
       <Banner heading="About Us" rightImage={cleaner1} />
 
+      
+      {/* welcome section */}
+      <div className="my_container flex flex-col lg:flex-row pt-[90px] pb-[50px] md:pb-[160px] gap-[20px]">
+        <div className=" lg:max-w-[377px]">
+          <h2 className="font-secondary font-bold text-[36px] lg:text-[44px] leading-[50px] lg:leading-[70px] text-center lg:text-left">
+            Welcome to Clean My Space Ltd.
+          </h2>
+          <Image
+            src={tree}
+            className="w-full pt-[50px] lg:w-[303px] hidden lg:block"
+            alt=""
+          />
+        </div>
+        <div className="max-w-full lg:max-w-[773px]">
+          <p className="text text-[#7A7A7A] text-[14px] lg:text-[16px]">
+            Founded on August 18, 2022, CLEAN MY SPACE LTD was born out of a
+            deep-seated passion for maintaining clean and healthy environments.
+            Our journey began with a simple but powerful desire: to promote
+            eco-friendly living through exceptional cleaning services.
+          </p>
+        </div>
+      </div>
+
       {/* mission vision section */}
 
-      <div className="my_container pt-[40px] md:pt-[50px] lg:pt-[100px] flex flex-col lg:flex-row gap-[20px]">
+      <div className="my_container pb-[40px] md:pb-[50px] lg:pb-[100px] pt-[40px] md:pt-[50px] lg:pt-[100px] flex flex-col lg:flex-row gap-[20px]">
         <div className="lg:w-1/2 border border-[#939393] rounded-[40px]">
           <h2 className="text-[32px] leading-[50px] font-bold text-center pt-[30px] font-secondary">
             Mission
@@ -52,48 +75,6 @@ function AboutUs() {
         </div>
       </div>
 
-      {/* welcome section */}
-      <div className="my_container flex flex-col lg:flex-row pt-[90px] pb-[50px] md:pb-[160px] gap-[20px]">
-        <div className=" lg:max-w-[377px]">
-          <h2 className="font-secondary font-bold text-[36px] lg:text-[44px] leading-[50px] lg:leading-[70px] text-center lg:text-left">
-            Welcome to Clean My Space Ltd.
-          </h2>
-          <Image
-            src={tree}
-            className="w-full pt-[50px] lg:w-[303px] hidden lg:block"
-            alt=""
-          />
-        </div>
-        <div className="max-w-full lg:max-w-[773px]">
-          <p className="text text-[#7A7A7A] text-[14px] lg:text-[16px]">
-            Founded on August 18, 2022, CLEAN MY SPACE LTD was born out of a
-            deep-seated passion for maintaining clean and healthy environments.
-            Our journey began with a simple but powerful desire: to promote
-            eco-friendly living through exceptional cleaning services.
-            <br />
-            <br />
-            Our CEO’s love for cleaning extends beyond just a hobby—it’s a
-            driving force behind our company. With a genuine commitment to
-            creating pristine spaces, we decided to turn this passion into a
-            profession, ensuring that our services are not only thorough but
-            also aligned with our vision for a cleaner, greener community.
-            <br />
-            <br />
-            At CLEAN MY SPACE LTD, we believe that a clean space is essential
-            for a healthier lifestyle. Our team is dedicated to providing
-            meticulous cleaning solutions that meet the highest standards of
-            excellence. We’re proud to offer services that are not only
-            effective but also environmentally responsible, reflecting our
-            commitment to sustainability.
-            <br />
-            <br />
-            Join us in our mission to enhance the quality of your living and
-            working spaces while contributing to a cleaner planet. Discover the
-            difference that passion and dedication can make with CLEAN MY SPACE
-            LTD —where your space is our priority.
-          </p>
-        </div>
-      </div>
 
       {/* about ceo section */}
       <div className="max-w-[970px] md:mx-[20px] mx-[10px] lg:mx-auto pt-[45px] pl-[45px] mb-[50px] md:mb-[160px] bg-[#DBECFF] border border-[#939393] rounded-[20px] flex flex-col lg:flex-row lg:items-end">

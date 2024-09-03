@@ -1,10 +1,10 @@
 import React from "react";
 import HomeBanner from "../components/HomeBanner/HomeBanner";
 import Arrow from "../assets/arrow.png";
-import homeService1 from "../assets/homeService1.png";
-import homeService2 from "../assets/homeService2.png";
-import homeService3 from "../assets/homeService3.png";
-import homeService4 from "../assets/homeService4.png";
+import homeService1 from "../assets/clean-my-space-ltd-eco-friendly-initiatives-logo.png";
+import homeService2 from "../assets/clean-my-space-ltd-commercial-cleaning-logo.png.png";
+import homeService3 from "../assets/clean-my-space-ltd-specialized-cleaning-logo.png";
+import homeService4 from "../assets/clean-my-space-ltd-additional-services-logo.png";
 import TopService1 from "../assets/home_img3.png";
 import TopService2 from "../assets/home_img4.png";
 import bestServices1 from "../assets/bestServices1.png";
@@ -17,10 +17,10 @@ import Book from "../assets/Book.png";
 import Confirm from "../assets/Confirm.png";
 import Enjoy from "../assets/Enjoy.png";
 import quote from "../assets/quote.png";
-import client from "../assets/client3.png";
-import worker1 from "../assets/worker1.png";
-import worker2 from "../assets/worker2.png";
-import worker3 from "../assets/worker3.png";
+import client from "../assets/clean-my-space-ltd-worker-smiling-testimonial.png";
+import worker1 from "../assets/clean-my-space-ltd-manager-Obinna-Odukwu.png";
+import worker2 from "../assets/clean-my-space-ltd-on-demand-cleaning-workers-ready.png";
+import worker3 from "../assets/clean-my-space-ltd-worker-folding-hands-booking-steps.png";
 import Button from "../components/Button/Button";
 import { IoIosPlay } from "react-icons/io";
 import { FaArrowRight, FaStar } from "react-icons/fa";
@@ -33,29 +33,33 @@ const services = [
   {
     title: "Eco-Friendly Initiatives",
     description:
-      "Expert workers are highly skilled professional with extensive in their respective fields.",
+      "We prioritize environmentally friendly cleaning methods to protect your space and the planet.",
     backgroundColor: "#EFF2FC",
+    alt: "Clean My Space Ltd Eco-Friendly Initiatives text logo – We prioritize environmentally friendly cleaning methods to protect your space and the planet.",
     imgSrc: homeService1,
   },
   {
     title: "Commercial Cleaning",
     description:
-      "Expert workers are highly skilled professional with extensive in their respective fields.",
+      "We offer specialized cleaning services for businesses, ensuring a clean and productive environment.",
     backgroundColor: "#FFE9CA",
+    alt: "Clean My Space Ltd Commercial Cleaning text logo – We offer specialized cleaning services for businesses, ensuring a clean and productive environment.",
     imgSrc: homeService2,
   },
   {
     title: "Specialized Cleaning",
     description:
-      "Expert workers are highly skilled professional with extensive in their respective fields.",
+      "We handle unique cleaning challenges with specialized techniques and equipment.",
     backgroundColor: "#FFE5F9",
+    alt: "Clean My Space Ltd Specialized Cleaning text logo – We handle unique cleaning challenges with specialized techniques and equipment.",
     imgSrc: homeService3,
   },
   {
     title: "Additional Services",
     description:
-      "Expert workers are highly skilled professional with extensive in their respective fields.",
+      "We offer various supplementary services to meet all your cleaning needs.",
     backgroundColor: "#E1EEE8",
+    alt: "Expert workers are highly skilled professional with extensive in their respective fields.",
     imgSrc: homeService4,
   },
 ];
@@ -136,7 +140,7 @@ function Home() {
               </div>
               <p className="text-[14px] font-medium pr-[20px]">Watch</p>
             </div>
-            <Image src={worker1} alt="" className="self-end" />
+            <Image src={worker1} alt="Obinna Odukwu, Manager at Clean My Space Ltd, standing in the office." className="self-end" />
           </div>
 
           <div className="bg-[#FFE9CA] border border-[#939393] px-[20px] h-max pt-[20px] flex flex-row md:max-w-[255px] rounded-[25px]">
@@ -151,7 +155,7 @@ function Home() {
             </div>
             <Image
               src={worker2}
-              alt=""
+              alt="Two cleaning workers from Clean My Space Ltd are standing back-to-back, wearing gloves and ready for work in an on-demand cleaning service."
               className="self-end md:w-[200px] w-[50%] md:h-[250px]"
             />
           </div>
@@ -178,12 +182,18 @@ function Home() {
                   <p className="">3</p>
                 </div>
               </a>
+              <div className="mt-20 md:mt-10">
+                <p className="text-[22px] md:text-[10px] pt-4 font-bold">Choose Your Service</p>
+                <p className="text-[22px] md:text-[10px] pt-3 font-bold">Confirm Your Booking</p>
+                <p className="text-[22px] md:text-[10px] pt-3 font-bold">Enjoy a Spotless Space</p>
+              </div>
             </div>
-            <Image
-              src={worker3}
-              alt=""
-              className="self-end w-[55%] md:w-full ml-[-30px]"
-            />
+              
+              <Image
+                src={worker3}
+                alt="Clean My Space Ltd worker folding hands, illustrating the 'Book in 3 Easy Steps' process."
+                className="self-end w-[55%] md:w-full ml-[-30px]"
+              />            
           </div>
 
           <div className="bg-[#FFE9CA] border border-[#939393] px-[20px] h-max pt-[20px] flex flex-row md:max-w-[200px] rounded-[25px]">
@@ -196,16 +206,16 @@ function Home() {
                 <FaStar />
               </div>
               <p className="text-[14px] font-medium py-[10px] ">
-                Get premium quality cleaning service{" "}
+                Check out our ratings on{" "}
               </p>
               <div className="flex items-center w-max gap-[10px] pt-[10px] bg-white border border-black py-[10px] px-[20px] rounded-[20px]">
-                <p className="text-center">Explore</p>
+                <p className="text-center">Google Maps</p>
               </div>
               <a
                 href="https://maps.app.goo.gl/LhY6XmBRfPUCtDEh6?g_st=com.google.maps.preview.copy"
                 className="flex items-center gap-[10px] pt-[20px] "
               >
-                <p className="text">see more</p>
+                <p className="text">View Ratings.</p>
                 <FaArrowRight />
               </a>
             </div>
@@ -224,14 +234,13 @@ function Home() {
           </div>
 
           <h2 className="heading_2 text-center pb-[50px]">
-            We Provide Best Services
+            We Provide the Best Cleaning Services in Abuja
           </h2>
           <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
-            We are dedicated to being the best cleaning company in Abuja,
-            committed to exceeding your expectations at every turn. Whether
-            you’re in need of professional cleaning expertise, innovative
-            solutions, or reliable support, we deliver unparalleled excellence
-            that sets us apart from other cleaning services in Abuja.
+            As one of the top cleaning companies in Abuja, Clean My Space Ltd. is 
+            committed to exceeding your expectations. Whether you need professional 
+            cleaning services, innovative solutions, or reliable support, we deliver 
+            excellence that sets us apart from other cleaning services in Abuja.
           </p>
         </div>
 
@@ -245,15 +254,13 @@ function Home() {
               <div>
                 <p className="text">Expert</p>
                 <p className="text-[28px] font-semibold leading-[30px]">
-                  Workers
+                  Expert Workers
                 </p>
               </div>
             </div>
             <div>
               <p className="text text-[16px]">
-                Our team is made up of seasoned professionals, each with deep
-                expertise in their field, ensuring that every task is handled
-                with precision and care.
+                Our team consists of seasoned professionals, each with deep expertise in their field. We handle every task with precision and care, ensuring superior results.
               </p>
             </div>
           </div>
@@ -267,15 +274,13 @@ function Home() {
               <div>
                 <p className="text">Advance</p>
                 <p className="text-[28px] font-semibold leading-[30px]">
-                  Services
+                  Advanced Services
                 </p>
               </div>
             </div>
             <div>
               <p className="text text-[16px]">
-                We provide state-of-the-art cleaning services designed to meet
-                your specific needs. By leveraging the latest technology and
-                best practices, we guarantee exceptional results every time.
+                We provide cutting-edge cleaning and services tailored to your specific needs. By leveraging the latest technology and best practices, we guarantee exceptional results every time.
               </p>
             </div>
           </div>
@@ -289,15 +294,13 @@ function Home() {
               <div>
                 <p className="text">24/7</p>
                 <p className="text-[28px] font-semibold leading-[30px]">
-                  Availability
+                  24/7 Availability
                 </p>
               </div>
             </div>
             <div>
               <p className="text text-[16px]">
-                We’re here whenever you need us, offering round-the-clock
-                services that ensure your space is always pristine, no matter
-                the hour.
+                We’re available whenever you need us, offering round-the-clock cleaning services in Abuja to ensure your space is always pristine, no matter the hour.
               </p>
             </div>
           </div>
@@ -311,15 +314,13 @@ function Home() {
               <div>
                 <p className="text">Customer</p>
                 <p className="text-[28px] font-semibold leading-[30px]">
-                  Satisfaction
+                  Customer Satisfaction
                 </p>
               </div>
             </div>
             <div>
               <p className="text text-[16px]">
-                Your satisfaction is our mission. We strive to deliver
-                unparalleled service that not only meets but consistently
-                exceeds your expectations.
+                Your satisfaction is our mission. We strive to deliver unparalleled service that not only meets but consistently exceeds your expectations.
               </p>
             </div>
           </div>
@@ -332,20 +333,19 @@ function Home() {
         <div>
           <div className="flex justify-center pb-[15px]">
             <p className="border border-black inline-block py-[10px] px-[20px] rounded-[20px] text-center">
-              Our Category
+              Our Categories
             </p>
           </div>
 
           <h2 className="heading_2  text-center pb-[50px]">
-            Explore Current Service
+            Explore Our Current Cleaning and Services
           </h2>
           <p className="text text-center pb-[50px]">
-            At CLEAN MY SPACE LTD, we provide a comprehensive range of cleaning
-            services designed to meet the needs of both residential and
-            commercial clients. Our commitment to quality and eco-friendly
-            practices ensures that every space we clean is left in pristine
-            condition. Here’s a list of our current services and some exciting
-            offerings we’re looking to add in the near future:
+            At Clean My Space Ltd., we provide a comprehensive range of cleaning services 
+            in Abuja, designed to meet the needs of both residential and commercial clients. 
+            Our commitment to quality and eco-friendly practices ensures that every space we 
+            clean is left in pristine condition. Here’s a list of our current services and 
+            some exciting offerings we’re planning to add soon:
           </p>
         </div>
 
@@ -361,7 +361,7 @@ function Home() {
                 <Image
                   src={service.imgSrc}
                   className="size-[90px]"
-                  alt={service.title}
+                  alt={service.alt}
                 />
                 <Link href={"/Services"}>
                   <Image src={Arrow} className="size-[48px]" alt="Arrow" />
@@ -389,13 +389,13 @@ function Home() {
         </div>
 
         <h2 className="heading_2 text-center pb-[50px]">
-          Explore Our Top Services
+          Explore Our Top Cleaning Services in Abuja
         </h2>
         <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
-          Discover the best cleaning services in Abuja, designed to meet your
-          needs and exceed your expectations. Whether you’re looking for
-          professional expertise, innovative solutions, or dependable support,
-          we’re here to deliver exceptional results every time
+          Discover the best cleaning services Abuja has to offer, designed to meet 
+          your needs and exceed your expectations. Whether you’re looking for professional 
+          expertise, innovative solutions, or dependable support, we’re here to deliver 
+          exceptional results every time.
         </p>
 
         {/* Top Service 1 */}
@@ -446,7 +446,7 @@ function Home() {
             </p>
             <div className="flex flex-col lg:flex-row gap-[50px] items-center pt-[30px]">
               <h3 className="text-[32px] leading-[35px] font-secondary font-semibold text-center lg:text-left">
-                N100,000
+                From N100,000
               </h3>
               <Link href={"/Contacts"}>
                 <Button label="Book Now" />
@@ -496,7 +496,7 @@ function Home() {
             </p>
             <div className="flex flex-col lg:flex-row gap-[50px] items-center pt-[30px]">
               <h3 className="text-[32px] leading-[35px] font-secondary font-semibold text-center lg:text-left">
-                N30,000
+                From N30,000
               </h3>
               <Link href={"/Contacts"}>
                 <Button label="Book Now" />
@@ -529,10 +529,10 @@ function Home() {
           How We Ensure Your Space Stays Spotless
         </h2>
         <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
-          We are dedicated to surpassing your expectations at every step.
-          Whether you’re looking for expert cleaning services, innovative
-          solutions, or dependable support in Abuja, we prioritize your needs
-          and deliver exceptional results to keep your space pristine.
+          We are dedicated to surpassing your expectations at every step. 
+          Whether you’re looking for expert cleaning services, innovative 
+          solutions, or dependable support in Abuja, we prioritize your needs 
+          and deliver exceptional results to keep your space pristine.
         </p>
 
         <div
@@ -547,8 +547,7 @@ function Home() {
                 Book Online
               </h3>
               <p className="text-[14px] leading-[22px] text-[#4F4F4F] pb-[20px]">
-                Expert workers are highly skilled professionals with extensive
-                experience in their respective fields.
+                Choose your cleaning service and book easily through our website.
               </p>
             </div>
 
@@ -559,8 +558,7 @@ function Home() {
                 Get Confirmation
               </h3>
               <p className="text-[14px] leading-[22px] text-[#4F4F4F] pb-[20px]">
-                Expert workers are highly skilled professional with extensive in
-                their respective fields.
+                Receive instant confirmation and scheduling details.
               </p>
             </div>
 
@@ -571,8 +569,7 @@ function Home() {
                 Enjoy Services
               </h3>
               <p className="text-[14px] leading-[22px] text-[#4F4F4F] pb-[20px]">
-                Expert workers are highly skilled professional with extensive in
-                their respective fields.
+                Sit back and relax while our expert workers take care of your space.
               </p>
             </div>
           </div>
@@ -601,7 +598,7 @@ function Home() {
 
         <div className="flex z-0">
           <div className="z-10 hidden lg:inline">
-            <Image src={client} className="lg:ml-[200px]  " alt="" />
+            <Image src={client} className="lg:ml-[200px]  " alt="Clean My Space Ltd worker smiling next to a testimonial – showcasing positive feedback from a satisfied customer." />
           </div>
           <div className="lg:max-w-[772px] z-0 border border-[#939393] rounded-[30px] p-[30px] md:p-[60px]">
             <Image src={quote} className="rotate-180" alt="Quote" />

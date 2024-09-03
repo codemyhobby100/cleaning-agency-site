@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/clean-my-space-ltd-abuja-logo.png";
 import { FiPhoneCall, FiX } from "react-icons/fi";
 import { HiMenuAlt1 } from "react-icons/hi";
 import Link from "next/link";
@@ -16,7 +16,7 @@ function Header() {
       <div className="my_container flex items-center justify-between">
         {/* Logo */}
         <Link href={"/Home"}>
-          <Image src={Logo} alt="Logo" />
+          <Image src={Logo} alt="Clean My Space Ltd Abuja Logo – Professional Cleaning Services in Abuja" />
         </Link>
 
         {/* Navigation Links */}
@@ -105,7 +105,7 @@ function Header() {
             <div className="p-[15px] bg-[#48BEF7] rounded-[50px]">
               <FiPhoneCall className="text-xl text-black" />
             </div>
-            <span className="font-medium text-[16px]">(+234) 125 487 471</span>
+            <span className="font-medium text-[16px]">+2349119178436</span>
           </div>
           <div className="flex gap-4">
             <div className="w-[48px] h-[48px] rounded-full bg-[#E7F7FD] flex items-center justify-center">

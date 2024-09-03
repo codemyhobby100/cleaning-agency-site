@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/Logo.png";
+import logo from "../../assets/clean-my-space-ltd-abuja-logo.png";
 import Button from "../Button/Button";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import Link from "next/link";
@@ -12,9 +12,14 @@ function Footer() {
         <div className="flex flex-col md:flex-row gap-[40px] items-center md:justify-between lg:gap-[70px]">
           <div className="flex flex-col items-center md:items-start max-w-[549px]  lg:text-left">
             <Image src={logo} alt="Logo" className="max-w-full h-auto" />
-            <h3 className="contact_heading pt-[25px] pb-[12px]">
+            <a 
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://forms.gle/zr3cv7GJvX4dFswC8" 
+              className="contact_heading pt-[25px] pb-[12px]"
+            >
               Subscribe to our newsletter
-            </h3>
+            </a>
             <Button label="Subscribe" />
             <div className="flex flex-col items-center md:items-start lg:flex-row gap-[20px] pt-[25px]">
               <div className="border-t lg:border-r lg:border-t-0 border-[#D9D9D9] pt-[10px] lg:pt-0 pr-[20px]">
