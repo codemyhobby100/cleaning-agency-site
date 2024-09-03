@@ -1,16 +1,15 @@
 import React, { useState } from "react";
-import serviceImg1 from "../assets/serviceImg1.png";
-import serviceImg2 from "../assets/serviceImg2.png";
+import serviceImg1 from "../assets/clean-my-space-ltd-service-page-company-office.png";
+import serviceImg2 from "../assets/clean-my-space-ltd-company-office-interior.png";
 import star from "../assets/star.png";
 import Question from "../assets/Question.png";
 import checkBox from "../assets/checkBox.png";
-import cleaner2 from "../assets/cleaner2.png";
+import cleaner2 from "../assets/clean-my-space-ltd-service-page-main-image.png";
 import Banner from "../components/Banner/Banner";
 import FAQ from "../components/FAQ/FAQ";
 import CurrentServices from "../components/CurrentServices/CurrentServices";
 import Layout from "@/components/Layout/Layout";
 import Image from "next/image";
-
 
 function Services() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,17 +18,20 @@ function Services() {
     setIsOpen(!isOpen);
   };
 
-
-
   return (
     <Layout>
       {/* Banner */}
 
-      <Banner heading="Services" rightImage={cleaner2} />
+      <Banner
+        heading="Our Cleaning Services in Abuja"
+        title="Welcome to Clean My Space Ltd."
+        rightImage={cleaner2}
+        alt="Main image on Clean My Space Ltd service page – highlighting our comprehensive cleaning services in Abuja."
+      />
 
-     {/* Current Services */}
+      {/* Current Services */}
 
-    <CurrentServices/>
+      <CurrentServices />
 
       {/* Additional Services section */}
 
@@ -171,7 +173,11 @@ function Services() {
 
       {/* Service image section */}
       <div className="my_container py-[100px] ">
-        <Image src={serviceImg1} className="object-cover" alt="" />
+        <Image
+          src={serviceImg1}
+          className="object-cover"
+          alt="Inside Clean My Space Ltd company office – showcasing our professional cleaning services."
+        />
       </div>
 
       {/* Job done section */}
@@ -212,42 +218,48 @@ function Services() {
 
       <div className="my_container bg-[#E1EEE8] border border-[#939393] flex flex-col lg:flex-row rounded-[30px] lg:mb-[160px] mb-[80px]">
         <div className="lg:w-1/2 w-full">
-          <Image src={serviceImg2} className="p-[40px] w-full" alt="Service" />
+          <Image
+            src={serviceImg2}
+            className="p-[40px] w-full"
+            alt="Interior of Clean My Space Ltd company office – showcasing the workspace where cleaning services are managed and coordinated."
+          />
         </div>
         <div className="lg:w-1/2 w-full flex flex-col justify-center p-[20px] lg:p-[40px]">
           <h3 className="heading_3 pt-[40px] pb-[13px]">Benefits</h3>
           <p className="font-medium text-[20px] leading-[28px] pb-[40px]">
-            Empowering 120+ clients for success and satisfaction
+            Over 120 satisfied clients trust our exceptional cleaning services.
           </p>
 
           <div className="flex gap-[15px] pb-[20px]">
             <Image src={star} className="w-[25px] h-[25px]" alt="Star" />
             <p className="text">
-              We office cleaning team members daily and each adheres to social
-              distancing.
+              <b> Rigorous safety measures: </b>Our team practices social
+              distancing and uses comprehensive sanitization techniques.
             </p>
           </div>
           <div className="flex gap-[15px] pb-[20px]">
             <Image src={star} className="w-[25px] h-[25px]" alt="Star" />
             <p className="text">
-              Sinks drains and faucets cleaned and disinfected
+              <b>Detailed cleaning:</b> We ensure thorough cleaning and
+              disinfection of sinks, drains, and faucets.
             </p>
           </div>
           <div className="flex gap-[15px]">
             <Image src={star} className="w-[25px] h-[25px]" alt="Star" />
             <p className="text">
-              Service means you have no contacts with our team members.
+              <b>Seamless service:</b> Experience our top-notch cleaning with
+              minimal contact, ensuring your convenience and safety.
             </p>
           </div>
         </div>
       </div>
 
       {/* faq section */}
-      <div className="my_container pb-[160px] flex flex-col lg:flex-row ">
+      <div className="my_container pb-[160px] flex items-center flex-col lg:flex-row ">
         <FAQ />
         <Image
           src={Question}
-          className="w-[30%] pt-[50px] lg:pt-0 lg:pl-[116px] mx-auto lg:mx-0"
+          className="w-[35%] h-[35%] pt-[50px] lg:pt-0 lg:pl-[116px] mx-auto lg:mx-0"
           alt=""
         />
       </div>

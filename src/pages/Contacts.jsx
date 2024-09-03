@@ -9,7 +9,7 @@ import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { RiMapPinLine } from "react-icons/ri";
 import emailjs from "@emailjs/browser"; // Import emailjs correctly
 import Swal from "sweetalert2";
-import cleaner4 from "../assets/cleaner4.png";
+import cleaner4 from "../assets/Contact-Clean-My-Space-Ltd-Abuja.png";
 import Layout from "@/components/Layout/Layout";
 
 function Contacts() {
@@ -45,7 +45,7 @@ function Contacts() {
   return (
     <Layout>
       {/* Banner section */}
-      <Banner heading="Contacts" rightImage={cleaner4} />
+      <Banner heading="Contact Clean My Space Ltd" title="Welcome to Clean My Space Ltd" rightImage={cleaner4} alt="Contact Clean My Space Ltd for top cleaning services in Abuja. Our team is ready to assist you with residential and commercial cleaning." />
 
       <div className="my_container py-[80px] lg:py-[160px] flex items-center flex-col lg:flex-row gap-[50px]">
         {/* Form Section */}

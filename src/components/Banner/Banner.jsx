@@ -1,22 +1,21 @@
 import React from "react";
 import banner from "../../assets/Banner.png";
 import Image from "next/image";
-function Banner({ heading, rightImage }) {
+function Banner({ heading, rightImage, title, alt }) {
   return (
     <div
       className="w-full py-[20px] md:pt-[30px] md:pb-0 bg-cover bg-center bg-no-repeat flex items-center "
       style={{ backgroundImage: `url(${banner.src})` }}
     >
       <div className="my_container flex items-center text-center md:text-start justify-center md:justify-between w-full">
-        <div>
-          <p className="lg:text-[24px] text-[20px] font-semibold text-[#0073AC]">{heading}</p>
+        <div className="lg:w-[600px]">
+          <p className="lg:text-[24px] text-[20px] font-semibold text-[#0073AC]">{title}</p>
           <h1 className="heading_2">
-            Welcome to Clean <br />
-            My Space Ltd.
+            {heading}
           </h1>
         </div>
         <div className="hidden md:block self-end">
-          <Image src={rightImage} className="w-full" alt="Right Image" />
+          <Image src={rightImage} className="w-full" alt={alt} />
         </div>
       </div>
     </div>

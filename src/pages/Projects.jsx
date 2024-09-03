@@ -9,7 +9,7 @@ function Projects() {
   return (
     <Layout>
       {/* banner section */}
-      <Banner heading="Projects" rightImage={cleaner3} />
+      <Banner heading=" Our Cleaning Projects" title="Welcome to Clean My Space Ltd." rightImage={cleaner3} />
 
       {/* Recent Projects section */}
 
@@ -70,13 +70,14 @@ function Projects() {
           <p className="border border-black inline text py-[10px] px-[20px] rounded-[20px] text-center">
             We are expert
           </p>
-          <h2 className="heading_2 pt-[15px] text-center lg:text-start">
-            The future being with happy clients
+          <h2 className="heading_2 lg:text-[42px] lg:leading-[50px] pt-[15px] text-center lg:text-start">
+            Transforming Spaces with Satisfied Clients in Abuja
           </h2>
           <p className="text pt-[30px] pb-[40px] text-center lg:text-start">
-            We promise to prioritize your and surpass your expectations at every
-            turn. Whether you’re seeking professional Expertise, Creative
-            solutions or reliable support.
+            At Clean My Space Ltd, we’re dedicated to exceeding your
+            expectations with every project. Whether you need expert cleaning
+            services, innovative solutions, or dependable support, we deliver
+            top-notch results tailored to your needs.
           </p>
           <Button label="More information's here" />
         </div>
