@@ -49,6 +49,29 @@ function AboutUs() {
         description={
           "Learn more about Clean My Space Ltd, a trusted cleaning firm in Abuja committed to delivering top-notch cleaning services to residential and commercial clients"
         }
+        schemaData={{
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Clean My Space Ltd",
+          url: "https://www.cleanmyspace.ng/AboutUs",
+          description:
+            "The best cleaning company in Abuja! Clean My Space Ltd. offers top-notch residential and commercial cleaning services.",
+          foundingDate: "2022-08-18",
+          founders: [
+            {
+              "@type": "Person",
+              name: "Emmanuel Azubuike Nwaka"
+            }
+          ],
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "No29 East Rd, Citec estate, Mbora",
+            addressLocality: "Abuja",
+            addressRegion: "FCT",
+            postalCode: "900102",
+            addressCountry: "Nigeria"
+          }
+        }}
       ></CustomHead>
       <Banner
         title="Welcome to Clean My Space Ltd."

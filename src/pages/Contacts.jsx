@@ -52,6 +52,33 @@ function Contacts() {
         description={
           "Get in touch with Clean My Space Ltd for top-notch cleaning services in Abuja. Fill out the contact form or call us at (+234)09119178436"
         }
+        schemaData={{
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Clean My Space Ltd",
+          url: "https://www.cleanmyspace.ng/",
+          sameAs: [
+            "https://www.instagram.com/cleanmyspaceltd/",
+            "https://www.youtube.com/@cleanmyspaceabuja",
+            "https://www.linkedin.com/company/clean-my-space-ltd/"
+          ],
+          contactPoint: [
+            {
+              "@type": "ContactPoint",
+              contactType: "Customer Service",
+              telephone: "+2349024819164",
+              email: "ceo@cleanmyspace.ng"
+            }
+          ],
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "No29 East Rd, Citec estate, Mbora",
+            addressLocality: "Abuja",
+            addressRegion: "FCT",
+            postalCode: "900102",
+            addressCountry: "Nigeria"
+          }
+        }}
       ></CustomHead>
       {/* Banner section */}
       <Banner

@@ -2,7 +2,7 @@
 
 import Head from "next/head";
 
-const CustomHead = ({ title, description, keywords }) => {
+const CustomHead = ({ title, description, keywords, schemaData }) => {
   return (
     <Head>
       <title>{title}</title>
@@ -10,6 +10,12 @@ const CustomHead = ({ title, description, keywords }) => {
       <meta name="keywords" content={keywords} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
+      {schemaData ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
+      ) : null}
     </Head>
   );
 };

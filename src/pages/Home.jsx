@@ -126,6 +126,23 @@ function Home() {
         description={
           "Top cleaning company in Abuja offering a wide range of cleaning services. Contact Clean My Space Ltd for expert cleaning solutions tailored to your needs."
         }
+        schemaData={{
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Clean My Space Ltd",
+          url: "https://www.cleanmyspace.ng/",
+          logo: "https://www.cleanmyspace.ng/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fclean-my-space-ltd-abuja-logo.4a77eb3b.png&w=128&q=75", // Replace with your actual logo URL
+          contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+2349119178436",
+            contactType: "Customer Service"
+          },
+          sameAs: [
+            "https://www.instagram.com/cleanmyspaceltd/",
+            "https://www.youtube.com/@cleanmyspaceabuja",
+            "https://www.linkedin.com/company/clean-my-space-ltd/"
+          ]
+        }}
       ></CustomHead>
       <HomeBanner />
 
