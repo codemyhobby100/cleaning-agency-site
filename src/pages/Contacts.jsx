@@ -185,7 +185,10 @@ function Contacts() {
             </div>
             <h2 className="contact_heading">Support Request</h2>
             <p className="text">Get help now! Contact our support team</p>
-            <p className="text-[20px] leading-[50px] underline">Explore More</p>
+            <a href="https://wa.me/2349119178436" target="_blank"
+              rel="noopener noreferrer">            
+              <p className="text-[20px] leading-[50px] underline">Explore More</p>
+            </a>
           </div>
           <div className="border-b pb-[40px] border-[#D9D9D9] w-full">
             <div className="p-[20px] bg-[#FFE5F9] border border-[#939393] text-black inline-flex items-center justify-center rounded-[20px]">
