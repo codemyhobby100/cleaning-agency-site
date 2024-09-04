@@ -1,6 +1,6 @@
 import React from "react";
 import homeBanner from "../../assets/HomeBanner.png";
-import worker4 from "../../assets/clean-my-space-ltd-abuja-professional-cleaning.png";
+import worker4 from "../../assets/clean-my-space-ltd-abuja-professional-cleaning-bsnner.png";
 import { RiMapPinLine } from "react-icons/ri";
 import { BiCategory } from "react-icons/bi";
 import { FiPhone } from "react-icons/fi";
@@ -25,7 +25,7 @@ function HomeBanner() {
                 affordable services, making us one of the leading cleaning companies in Abuja.
               </p>
             </div>
-            <div className="md:max-w-[649px] w-full  border border-[#939393] mt-[35px] bg-[#FAFAFA] p-[15px] rounded-[20px] flex flex-col gap-[20px] lg:gap-[10px] items-center lg:items-start lg:flex-row">
+            <div className="hidden md:flex md:max-w-[649px] w-full border border-[#939393] mt-[35px] bg-[#FAFAFA] p-[15px] rounded-[20px] flex-col gap-[20px] lg:gap-[10px] items-center lg:items-start lg:flex-row">
               <div className="w-full">
                 <div className="flex gap-[10px] items-center">
                   <RiMapPinLine className="text-[18px]" />
