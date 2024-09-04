@@ -224,7 +224,7 @@ function AboutUs() {
                       />
                       <p className="text text-[16px]">{service.title}</p>
                     </div>
-                    <p className="text text-[14px] text-gray-600 text-center lg:text-left">
+                    <p className="text text-[14px] pl-8 text-gray-600 text-left lg:text-left">
                       {service.description}
                     </p>
                   </div>

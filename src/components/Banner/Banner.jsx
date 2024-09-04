@@ -9,8 +9,8 @@ function Banner({ heading, rightImage, title, alt }) {
     >
       <div className="my_container flex items-center text-center md:text-start justify-center md:justify-between w-full">
         <div className="lg:w-[600px]">
-          <p className="lg:text-[24px] text-[20px] font-semibold text-[#0073AC]">{title}</p>
-          <h1 className="heading_2">
+          <p className="lg:text-[24px] text-[18px] font-semibold text-[#0073AC]">{title}</p>
+          <h1 className="heading_2 text-2xl md:text-7xl">
             {heading}
           </h1>
         </div>

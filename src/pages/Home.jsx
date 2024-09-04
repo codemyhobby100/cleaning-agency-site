@@ -212,13 +212,13 @@ function Home() {
               </a>
               <div className="mt-20 md:mt-10">
                 <ul className="list-disc pl-5">
-                  <li className="text-[22px] md:text-[8px] pt-4">
+                  <li className="text-[14px] font-medium md:text-[14px] pt-4">
                     Choose Your Service
                   </li>
-                  <li className="text-[22px] md:text-[8px] pt-3">
+                  <li className="text-[14px] font-medium md:text-[14px] pt-3">
                     Confirm Your Booking
                   </li>
-                  <li className="text-[22px] md:text-[8px] pt-3">
+                  <li className="text-[14px] font-medium md:text-[14px] pt-3">
                     Enjoy a Spotless Space
                   </li>
                 </ul>
