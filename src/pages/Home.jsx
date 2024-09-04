@@ -177,7 +177,10 @@ function Home() {
                 On Demand Cleaning Service
               </p>
               <div className="flex items-center w-max gap-[10px] bg-white rotate-[-90deg] justify-end border border-black py-[10px] px-[20px] rounded-[20px]">
-                <p className="text-center">Get Plan</p>
+                <a href="https://wa.me/2349119178436" target="_blank"
+              rel="noopener noreferrer">
+                  <p className="text-center">Get Plan</p>
+                </a>
                 <FaArrowRight />
               </div>
             </div>
