@@ -10,7 +10,7 @@ function HomeBanner() {
     <>
       <div
         className="w-full md:px-[30px] py-[30px] md:py-[70px] lg:pt-[40px] lg:pb-[80px] bg-cover bg-no-repeat bg-center flex items-center "
-        style={{ backgroundImage: `url(${homeBanner.src}) alt(Clean My Space Ltd Abuja worker who provides top-notch cleaning services in Abuja)` }}
+        style={{ backgroundImage: `url(${homeBanner.src}` }}
       >
         <div className="my_container flex lg:flex-row gap-[50px] flex-col items-center ">
           <div className="flex flex-col items-center lg:items-start">

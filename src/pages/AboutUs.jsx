@@ -5,7 +5,7 @@ import AboutImg2 from "../assets/clean-my-space-ltd-about-us-workers-smiling.png
 import AboutImg3 from "../assets/clean-my-space-ltd-worker-smiling-about-us.png";
 import checkBox from "../assets/checkBox.png";
 import AboutIcon from "../assets/aboutIcon.png";
-import cleaner1 from "../assets/clean-my-space-ltd-about-us-workers-back-to-back.png";
+import cleaner1 from "../assets/clean-my-space-ltd-about-us-workers-back-to-back-banner.png";
 import tree from "../assets/tree.png";
 import Banner from "../components/Banner/Banner";
 import Layout from "@/components/Layout/Layout";
