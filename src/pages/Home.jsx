@@ -439,7 +439,7 @@ function Home() {
         </div>
 
         <h2 className="heading_2 text-center pb-[50px]">
-          Explore Our Top Cleaning Services in Abuja
+          Our Top Cleaning Services in Abuja
         </h2>
         <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
           Discover the best cleaning services Abuja has to offer, designed to
