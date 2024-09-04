@@ -147,14 +147,14 @@ function Contacts() {
               />
             </div>
           </div>
-          <p className="contact_heading">Drop us a line for us</p>
+          {/* <p className="contact_heading">Drop us a line for us</p> */}
           <div className="w-full pb-[30px]">
             <div className="border-b border-[#C6C6C6] py-2 flex">
               <IoMailOutline className="text-[25px] text-[#200E32] mb-2 mr-[10px]" />
               <textarea
                 name="message"
                 required="required"
-                placeholder="Enter your message"
+                placeholder="Write your message..."
                 className="w-full bg-transparent focus:outline-none text-[18px] placeholder-[#6A6A6A] resize-none"
                 rows="4"
                 onChange={(e) => setInputValue(e.target.value)}
