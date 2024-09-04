@@ -274,7 +274,7 @@ function Home() {
           </div>
 
           <h2 className="heading_2 text-center pb-[50px]">
-            We Provide the Best Cleaning Services in Abuja
+            Best Cleaning Services in Abuja
           </h2>
           <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
             As one of the top cleaning companies in Abuja, Clean My Space Ltd.
@@ -387,7 +387,7 @@ function Home() {
           </div>
 
           <h2 className="heading_2  text-center pb-[50px]">
-            Explore Our Current Cleaning and Services
+            Explore Our Cleaning Services
           </h2>
           <p className="text text-center pb-[50px]">
             At Clean My Space Ltd., we provide a comprehensive range of cleaning
