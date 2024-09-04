@@ -6,7 +6,7 @@ import homeService2 from "../assets/clean-my-space-ltd-commercial-cleaning-logo.
 import homeService3 from "../assets/clean-my-space-ltd-specialized-cleaning-logo.png";
 import homeService4 from "../assets/clean-my-space-ltd-additional-services-logo.png";
 import TopService1 from "../assets/home_img3.png";
-import TopService2 from "../assets/home_img4.png";
+import TopService2 from "../assets/clean-my-space-ltd-abuja-professional-cleaning.png";
 import bestServices1 from "../assets/bestServices1.png";
 import bestServices2 from "../assets/bestServices2.png";
 import bestServices3 from "../assets/bestServices3.png";
@@ -211,16 +211,19 @@ function Home() {
                 </div>
               </a>
               <div className="mt-20 md:mt-10">
-                <p className="text-[22px] md:text-[10px] pt-4 font-bold">
-                  Choose Your Service
-                </p>
-                <p className="text-[22px] md:text-[10px] pt-3 font-bold">
-                  Confirm Your Booking
-                </p>
-                <p className="text-[22px] md:text-[10px] pt-3 font-bold">
-                  Enjoy a Spotless Space
-                </p>
+                <ul className="list-disc pl-5">
+                  <li className="text-[22px] md:text-[8px] pt-4">
+                    Choose Your Service
+                  </li>
+                  <li className="text-[22px] md:text-[8px] pt-3">
+                    Confirm Your Booking
+                  </li>
+                  <li className="text-[22px] md:text-[8px] pt-3">
+                    Enjoy a Spotless Space
+                  </li>
+                </ul>
               </div>
+
             </div>
 
             <Image

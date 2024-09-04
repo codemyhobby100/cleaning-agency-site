@@ -20,7 +20,13 @@ function Footer() {
             >
               Subscribe to our newsletter
             </a>
-            <Button label="Subscribe" />
+            <a 
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://forms.gle/zr3cv7GJvX4dFswC8" 
+              className="contact_heading pt-[25px] pb-[12px]">
+              <Button label="Subscribe" />
+              </a>
             <div className="flex flex-col items-center md:items-start lg:flex-row gap-[20px] pt-[25px]">
               <div className="border-t lg:border-r lg:border-t-0 border-[#D9D9D9] pt-[10px] lg:pt-0 pr-[20px]">
                 <p className="contact_heading md:text-start text-center">
