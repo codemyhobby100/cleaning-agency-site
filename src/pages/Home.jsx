@@ -176,10 +176,11 @@ function Home() {
               <p className="text-[14px] font-medium ">
                 On Demand Cleaning Service
               </p>
-              <div className="flex items-center w-max gap-[10px] bg-white rotate-[-90deg] justify-end border border-black py-[10px] px-[20px] rounded-[20px]">
-                <a href="https://wa.me/2349119178436" target="_blank"
-              rel="noopener noreferrer">
-                  <p className="text-center">Get Plan</p>
+              <div className="flex items-center w-max gap-[10px] bg-white rotate-[-90deg] justify-end border border-black py-[10px] px-[20px] ml-[-40px] rounded-[20px]">
+                <a href="https://wa.me/2349119178436" 
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  Get Plan
                 </a>
                 <FaArrowRight />
               </div>
@@ -213,7 +214,7 @@ function Home() {
                   <p className="">3</p>
                 </div>
               </a>
-              <div className="mt-20 md:mt-10">
+              {/* <div className="mt-20 md:mt-10">
                 <ul className="list-disc pl-5">
                   <li className="text-[14px] font-medium md:text-[14px] pt-4">
                     Choose Your Service
@@ -225,7 +226,7 @@ function Home() {
                     Enjoy a Spotless Space
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
             </div>
 
@@ -576,7 +577,7 @@ function Home() {
         </div>
 
         <h2 className="heading_2 text-center pb-[50px]">
-          How We Ensure Your Space Stays Spotless
+          Your Space Stays Spotless
         </h2>
         <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
           We are dedicated to surpassing your expectations at every step.
