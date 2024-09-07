@@ -9,7 +9,7 @@ import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { RiMapPinLine } from "react-icons/ri";
 import emailjs from "@emailjs/browser"; // Import emailjs correctly
 import Swal from "sweetalert2";
-import cleaner4 from "../assets/Contact-Clean-My-Space-Ltd-Abuja.png";
+import cleaner4 from "../assets/done/cleanmyspace1.webp";
 import Layout from "@/components/Layout/Layout";
 import CustomHead from "@/components/CustomHead/CustomHead";
 

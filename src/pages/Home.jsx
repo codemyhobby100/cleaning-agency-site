@@ -5,8 +5,8 @@ import homeService1 from "../assets/clean-my-space-ltd-eco-friendly-initiatives-
 import homeService2 from "../assets/clean-my-space-ltd-commercial-cleaning-logo.png.png";
 import homeService3 from "../assets/clean-my-space-ltd-specialized-cleaning-logo.png";
 import homeService4 from "../assets/clean-my-space-ltd-additional-services-logo.png";
-import TopService1 from "../assets/home_img3.png";
-import TopService2 from "../assets/clean-my-space-ltd-abuja-professional-cleaning.png";
+import TopService1 from "../assets/done/cleanmyspace7.webp";
+import TopService2 from "../assets/done/cleanmyspace6.webp";
 import bestServices1 from "../assets/bestServices1.png";
 import bestServices2 from "../assets/bestServices2.png";
 import bestServices3 from "../assets/bestServices3.png";

@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../components/Banner/Banner";
-import cleaner3 from "../assets/cleaner3.png";
+import cleaner3 from "../assets/done/cleanmyspace5.webp";
 import { RiMapPinLine } from "react-icons/ri";
 import Button from "../components/Button/Button";
 import Layout from "@/components/Layout/Layout";

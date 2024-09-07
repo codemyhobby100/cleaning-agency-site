@@ -4,7 +4,7 @@ import serviceImg2 from "../assets/clean-my-space-ltd-company-office-interior.pn
 import star from "../assets/star.png";
 import Question from "../assets/Question.png";
 import checkBox from "../assets/checkBox.png";
-import cleaner2 from "../assets/clean-my-space-ltd-service-page-main-image.png";
+import cleaner2 from "../assets/done/cleanmyspace3.webp";
 import Banner from "../components/Banner/Banner";
 import FAQ from "../components/FAQ/FAQ";
 import CurrentServices from "../components/CurrentServices/CurrentServices";

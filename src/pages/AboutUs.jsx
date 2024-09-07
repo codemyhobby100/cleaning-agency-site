@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "../components/Button/Button";
 import AboutImg1 from "../assets/clean-my-space-ltd-ceo-emmanuel-azubuike-nwaka.png";
-import AboutImg2 from "../assets/clean-my-space-ltd-about-us-workers-smiling.png";
-import AboutImg3 from "../assets/clean-my-space-ltd-worker-smiling-about-us.png";
+import AboutImg2 from "../assets/done/13-transformed.png";
+import AboutImg3 from "../assets/done/1-removebg.png";
 import checkBox from "../assets/checkBox.png";
 import AboutIcon from "../assets/aboutIcon.png";
-import cleaner1 from "../assets/clean-my-space-ltd-about-us-workers-back-to-back-banner.png";
+import cleaner1 from "../assets/done/cleanmyspace2.webp";
 import tree from "../assets/tree.png";
 import Banner from "../components/Banner/Banner";
 import Layout from "@/components/Layout/Layout";
@@ -198,9 +198,11 @@ function AboutUs() {
             </div>
             <Image
               src={AboutImg2}
-              className="bg-[#FFE5F9] border border-[#D9D9D9] rounded-[30px] mt-[20px] lg:max-w-none"
+              className="bg-[#FFE5F9] border border-[#D9D9D9] rounded-[30px] mt-[20px] lg:max-w-[300px] max-w-full"
               alt="Two Clean My Space Ltd workers smiling, representing the company's friendly and professional service in the About Us section. cleaning service"
             />
+
+
           </div>
           <div className="md:col-span-2 col-span-1">
             <div className="pb-[15px] text-center lg:text-left">
@@ -318,10 +320,11 @@ function AboutUs() {
           <div>
             <Image
               src={AboutImg3}
-              className="w-full block"
+              className="w-full block sm:max-w-[400px] mx-auto"
               alt="Clean My Space Ltd worker smiling near the 'We’re committed to caring' cleaning company in Nigeria"
             />
           </div>
+
         </div>
       </div>
     </Layout>

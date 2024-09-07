@@ -15,7 +15,7 @@ function Banner({ heading, rightImage, title, alt }) {
           </h1>
         </div>
         <div className="hidden md:block self-end">
-          <Image src={rightImage} className="w-full" alt={alt} />
+          <Image src={rightImage} className="w-60 md:w-96 h-auto" alt={alt} />
         </div>
       </div>
     </div>
