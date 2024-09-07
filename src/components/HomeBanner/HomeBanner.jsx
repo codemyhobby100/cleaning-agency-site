@@ -1,6 +1,6 @@
 import React from "react";
 import homeBanner from "../../assets/HomeBanner.png";
-import worker4 from "../../assets/clean-my-space-ltd-abuja-professional-cleaning-bsnner.png";
+import worker4 from "../../assets/done/cleanmyspace1.webp";
 import { RiMapPinLine } from "react-icons/ri";
 import { BiCategory } from "react-icons/bi";
 import { FiPhone } from "react-icons/fi";
@@ -81,7 +81,11 @@ function HomeBanner() {
             </div>
           </div>
           <div className="mt-5 lg:mt-0">
-            <Image src={worker4} className="" alt="Worker" />
+            <Image 
+              src={worker4} 
+              className="w-[37rem] lg:w-[40rem] h-auto"  // Adjusted width for mobile (w-32) and laptop (lg:w-48)
+              alt="Worker" 
+            />
           </div>
         </div>
       </div>
