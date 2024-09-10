@@ -10,12 +10,14 @@ const CustomHead = ({ title, description, keywords, schemaData }) => {
       <meta name="keywords" content={keywords} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
+      
       {schemaData ? (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
         />
       ) : null}
+
     </Head>
   );
 };
