@@ -16,12 +16,16 @@ function Projects() {
         description={
           "Top-notch cleaning projects in Abuja with Clean My Space Ltd. We offer expert office and commercial cleaning tailored to your needs. Contact the #1 cleaning company in Abuja today!"
         }
+        image="https://www.cleanmyspace.ng/_next/static/media/cleanmyspace1.073937be.webp"
+        imageWidth="1200"
+        imageHeight="630"
         schemaData={[
           {
             "@context": "https://schema.org",
             "@type": "CreativeWork",
             name: "Moscow Underground",
             description: "The future begins with happy clients.",
+            
             creator: {
               "@type": "Organization",
               name: "Clean My Space Ltd"

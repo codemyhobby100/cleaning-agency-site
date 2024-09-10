@@ -139,9 +139,13 @@ function Footer() {
             </div>
           </a>
         </div>
-        <p className="text-[12px] leading-[20px] lg:leading-[50px]">
+        <a href="https://www.instagram.com/volume.ng/" 
+          target="_blank"
+          rel="noopener noreferrer" 
+          className="text-[12px] leading-[20px] lg:leading-[50px]">
+
           Developed by Volume Technologies International Limited
-        </p>
+        </a>
       </div>
     </>
   );

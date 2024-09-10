@@ -27,6 +27,9 @@ function Services() {
         description={
           "Explore our range of cleaning services, including janitorial and laundry services in Abuja. Clean My Space Ltd provides professional cleaning solutions for homes and offices"
         }
+        image="https://www.cleanmyspace.ng/_next/static/media/cleanmyspace1.073937be.webp"
+        imageWidth="1200"
+        imageHeight="630"
         schemaData={[
           {
             "@context": "https://schema.org",

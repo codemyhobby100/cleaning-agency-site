@@ -52,6 +52,9 @@ function Contacts() {
         description={
           "Get in touch with Clean My Space Ltd for top-notch cleaning services in Abuja. Fill out the contact form or call us at (+234)09119178436"
         }
+        image="https://www.cleanmyspace.ng/_next/static/media/cleanmyspace1.073937be.webp"
+        imageWidth="1200"
+        imageHeight="630"
         schemaData={{
           "@context": "https://schema.org",
           "@type": "Organization",
