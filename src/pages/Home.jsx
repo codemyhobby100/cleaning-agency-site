@@ -78,7 +78,7 @@ const items2 = [
   "Thoroughly cleaning all areas of your home or office",
   " Addressing build-up in hard-to-reach places, including behind appliances and under furniture",
   "Sanitizing and deodorizing carpets, upholstery, and other fabrics",
-  "Cleaning and polishing high-touch surfaces, such as doorknobsand light switches",
+  "Cleaning and polishing high-touch surfaces, such as doorknobs and light switches",
   "Scrubbing and disinfecting bathrooms and kitchens to remove grime and bacteria"
 ];
 
